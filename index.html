@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Methods - User Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--Dark mode toggle button-->
+<button onclick="toggleDarkMode()" class="dark-mode-btn">🌙 Dark Mode</button>
+  <div class="container">
+    <h1>Smart Methods - User Form</h1>
+    <!--from for user input-->
+    <form id="userForm">
+      <input type="text" name="name" id="name" placeholder="Name" required />
+      <input type="number" name="age" id="age" placeholder="Age" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!--table to display users-->
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody id="dataBody">
+        <!-- javaScript will insert rows users-->
+      </tbody>
+    </table>
+   <!--Button to delete all users-->
+    <button onclick="deleteAll()" class="delete-all-btn">Delete All</button>
+  </div>
+<!--link to external javaScript file-->
+  <script src="script.js"></script>
+
+</body>
+</html>
