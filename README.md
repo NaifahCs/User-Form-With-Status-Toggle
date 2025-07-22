@@ -2,15 +2,16 @@
 This task is a simple user management webpage using HTML, CSS, JavaScript, and PHP. It allows adding users, displaying them in a table, toggling their status, and deleting all data with real-time updates via AJAX
 
 This simple web task allows users to:
- • Add new users with name and age
+
+ Add new users with name and age
  
- • Display all users in a dynamic table
+ Display all users in a dynamic table
  
- • Toggle each user’s status (active/inactive)
+ Toggle each user’s status (active/inactive)
  
- • Delete all users
+ Delete all users
  
- • Switch between Light and Dark Mode
+  Switch between Light and Dark Mode
  
 
 # Files:
@@ -20,11 +21,16 @@ This simple web task allows users to:
  
 ` script.js` Handles all interactions using JavaScript and AJAX:
 
- • Submitting form
- • Fetching data from the database
- • Toggling user status
- • Deleting all users
- • Switching dark mode
+ Submitting form
+ 
+ Fetching data from the database
+ 
+ Toggling user status
+ 
+ Deleting all users
+ 
+ Switching dark mode
+ 
  `database.php`Connects to MySQL database
  
 ` actions.php` Handles all backend logic (add, fetch, toggle status, delete all)
